@@ -49,6 +49,7 @@ Create `Emilia_ZH_EN_pinyin` directory and download vocab file:
 ```bash
 mkdir Emilia_ZH_EN_pinyin
 # Download vocab.txt to this directory
+https://huggingface.co/spaces/mrfakename/E2-F5-TTS/blob/27cee60c0890d22dab124730a73d5453fc8359a5/data/Emilia_ZH_EN_pinyin/vocab.txt
 ```
 
 ### 3. Vocos Vocoder
@@ -56,6 +57,7 @@ Download Vocos mel vocoder model:
 ```bash
 # Create vocos-mel-24khz directory and download required files
 # config.yaml, pytorch_model.bin, etc.
+https://huggingface.co/charactr/vocos-mel-24khz/tree/main
 ```
 
 ### 4. Whisper Model
@@ -63,6 +65,7 @@ Download Whisper large v3 turbo model:
 ```bash
 # Create whisper-large-v3-turbo directory and download required files
 # All tokenizer and model files
+https://huggingface.co/openai/whisper-large-v3-turbo/tree/main
 ```
 
 ## Usage
